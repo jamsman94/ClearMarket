@@ -1,0 +1,47 @@
+<section class="wow fadeIn contact-style" id="contact">
+  <div class="content">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7 center-col text-center">
+          <div class="contact-title">
+            <h5 class="title-detail">{{ 'contact-us' | translate }}</h5>
+          </div>
+        </div>
+      </div>
+      <div class="form-box">
+        <form [formGroup]="messageForm" (ngSubmit)="onFakeSubmit()">
+          <div class="row row-20">
+            <div class="col-md-6">
+              <div class="form-wrap">
+                <input class="input-cus" type="text" formControlName="name" placeholder="name">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-wrap">
+                <input class="input-cus" type="text" formControlName="companyName" placeholder="Company Name">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-wrap">
+                <input class="input-cus" type="email" formControlName="email" placeholder="E-Mail">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-wrap">
+                <input class="input-cus" type="text" formControlName="companyLink" placeholder="Company Link">
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="form-wrap">
+                <input class="input-cus input-message" type="text" formControlName="message" placeholder="Message">
+              </div>
+            </div>
+            <div class="text-center custom-btn">
+              <input class="btn btn-secondary btn-rounded btn-large form-button" type="submit" value="SEND MESSAGE">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

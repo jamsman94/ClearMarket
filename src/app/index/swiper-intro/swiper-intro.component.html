@@ -1,0 +1,23 @@
+<!--<script src="swiper-intro.component.ts"></script>-->
+<section class="wow fadeIn swiper-style" style="visibility: visible; animation-name: fadeIn;" id="service">
+  <swiper class="swiper-container" [config]="config">
+    <div class="swiper-slide slide-styles" style="background-image: url(../../../assets/images/CM-app.png)">
+      <div class="inner-text">
+        <div class="inner-wrapper">
+          <h5 class="text-white inner-title">{{ 'platform-access' | translate }}</h5>
+          <p class="inner-box">{{ 'platform-access-detail' | translate }}</p>
+          <a class="btn-custom" href="../../index.html">{{ 'view-service' | translate }}</a>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-slide slide-styles" style="background-image: url(../../../assets/images/CM-mobile-EN.png)">
+      <div class="inner-text">
+        <div class="inner-wrapper">
+          <h5 class="text-white inner-title">{{ 'end-user-login' | translate }}</h5>
+          <p class="inner-box">{{ 'login-detail' | translate }}</p>
+          <a class="btn-custom" href="../../index.html">{{ 'view-service' | translate }}</a>
+        </div>
+      </div>
+    </div>
+  </swiper>
+</section>

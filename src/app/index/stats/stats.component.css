@@ -1,0 +1,44 @@
+.bg-gradient {
+  padding: 50px 0;
+  background-color: #0052DC;
+  color: #FFFFFF;
+}
+
+.stat-title{
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.stat-title-word{
+  width: 100%;
+  position: relative !important;
+  overflow: hidden !important;
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+.title{
+  font-size: 16px;
+  line-height: 23px;
+  position: relative;
+  display: inline-block;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.052em;
+  text-transform: uppercase;
+}
+
+.stat-detail{
+  text-align: center;
+}
+
+.desc-detail{
+  display: block !important;
+  margin-bottom: 3%;
+}

@@ -1,1 +1,129 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+
+*{
+  transition: .3s ease-out all;
+}
+
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+section{
+  padding: 130px 0;
+  overflow: hidden;
+}
+
+@media (max-width: 1199px){
+  section{
+    padding: 90px 0;
+  }
+}
+
+.xs-offset-50px-bottom {
+  margin-bottom: 50px !important;
+}
+
+.sm-no-padding-lr {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.sm-offset-70px-bottom {
+  margin-bottom: 70px !important;
+}
+
+.sm-center-col {
+  float: none;
+  margin: 0 auto;
+}
+
+.inset-five-right {
+  padding-right: 5%;
+}
+
+.sm-text-center {
+  text-align: center;
+}
+
+.sm-padding-15px-lr {
+  padding-right: 15px !important;
+  padding-left: 15px !important;
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+
+.xs-text-center {
+  text-align: center;
+}
+
+.inset-seven-lr {
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.pull-left {
+  float: left;
+}
+
+.sm-no-padding-lr {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.offset-30px-bottom {
+  margin-bottom: 30px;
+}
+
+.sm-text-center {
+  text-align: center;
+}
+
+.sm-col-2-nth .col-sm-6:nth-child(2n+1) {
+  clear: left;
+}
+
+.xs-col-2-nth .col-sm-6:nth-child(2n+1) {
+  clear: left;
+}
+
+.col-2-nth .col-md-6:nth-child(2n+1) {
+  clear: left;
+}
+
+.col-2-nth .col-sm-6:nth-child(2n+1) {
+  clear: left;
+}
+
+.no-margin{
+  margin: 0 !important;
+}
+
+@media (max-width: 1199px){
+  h5{
+    font-size: 27px;
+    line-height: 32px;
+    padding: 0;
+    letter-spacing: 0;
+    font-weight: 400;
+  }
+}
+
+h5{
+  font-size: 32px;
+  line-height: 40px;
+  margin: 0 0 25px;
+  padding: 0;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+section{
+  padding: 130px 0;
+  overflow: hidden;
+}

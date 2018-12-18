@@ -1,0 +1,77 @@
+.welcome-style{
+  visibility: visible;
+  animation-name: fadeIn;
+  padding: 0;
+  position: relative;
+  min-height: 100vh;
+  flex-shrink: 0;
+  display: flex;
+  margin: 0 auto;
+  overflow: hidden;
+  height: auto;
+  width: 100%;
+  z-index: 1;
+}
+
+.welcome-wrapper{
+  transform: translate3d(0px, 0px, 0px);
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-self: stretch;
+  align-items: stretch;
+  width: 100%;
+  height: auto;
+  min-height: inherit;
+  transition-property: transform;
+  box-sizing: content-box;
+}
+
+.welcome-box{
+  background-image: url("../../../assets/images/index-bg.png");
+  background-size: cover;
+  width: 100%;
+  z-index: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 100%;
+  white-space: nowrap;
+}
+
+.word-wrapper{
+  width: 100%;
+  white-space: normal;
+}
+
+.word-box{
+  width: 100%;
+  font-size: 44px;
+  font-weight: 900;
+  font-family: "Raleway", sans-serif;
+  color: #FFFFFF;
+}
+
+.word-box-inner{
+  margin-top: 45px;
+  line-height: .85;
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: 400;
+  display: block;
+  letter-spacing: .1em;
+}
+
+@media (min-width: 992px){
+  .word-box-inner{
+    font-size: 78px;
+  }
+}
+
+.slogan-details{
+  margin-top: 45px;
+  text-align: center;
+  width: 100%;
+}
+

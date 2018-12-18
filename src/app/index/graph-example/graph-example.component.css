@@ -1,0 +1,92 @@
+.graphSection{
+  padding-bottom: 80px;
+  padding-top: 80px;
+  background-color: #FFFFFF;
+  text-align: center;
+  display: block;
+}
+
+@media (max-width: 1199px) {
+  h2 {
+    font-size: 50px;
+    line-height: 55px;
+    margin: 0 0 22px;
+    padding: 0;
+    letter-spacing: 0;
+    font-weight: 400;
+  }
+}
+
+h2 {
+  font-size: 55px;
+  line-height: 60px;
+  margin: 0 0 25px;
+  padding: 0;
+  letter-spacing: 0;
+  font-weight: 400;
+  color: #6f6f6f;
+}
+
+p {
+  margin: 0;
+  color: #908f8f;
+  font-weight: 300;
+}
+
+.mid-80 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.no-padding{
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.border-gray{
+  border-left: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+}
+
+#mynetwork {
+  width: 80%;
+  height: 700px;
+  border: 1px solid lightgray;
+  text-align: left !important;
+  alignment: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon-green{
+  height: 20px;
+  width: 20px;
+  background: #00A876;
+  border-radius: 100%;
+}
+
+.icon-yellow{
+  height: 20px;
+  width: 20px;
+  background: #FFBF00;
+  border-radius: 100%;
+}
+
+.icon-blue{
+  height: 20px;
+  width: 20px;
+  background: #1B1BB3;
+  border-radius: 100%;
+}
+
+.icon-red{
+  height: 20px;
+  width: 20px;
+  background: #A61000;
+  border-radius: 100%;
+}
