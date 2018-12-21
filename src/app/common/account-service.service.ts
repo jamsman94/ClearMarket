@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class AccountServiceService {
   // address to exchange the id into the token
-  statsAddr = 'https://api.clearmarkets.org/getToken/localToken';
+  statsAddr = 'http://api.clearmarkets.org/getToken/localToken';
 
   constructor(private http: HttpClient) { }
 
