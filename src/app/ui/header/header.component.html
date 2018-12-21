@@ -2,19 +2,19 @@
   <div class="container">
     <div class="row">
       <div class="col-md-5">
-        <a class="logo" href="../../index.html" title="ClearMarkets">
+        <a class="logo" routerLink="" title="ClearMarkets">
           <img class="logo-dark" src="../../assets/images/logo-light.png">
         </a>
       </div>
       <div class="col-md-7 pull-right custom-menu">
         <nav class="nav">
           <ul class="pull-right">
-            <li><a class="inner-link" href="#" routerLink="" fragment="" title="Home">{{'Home' | translate }}</a></li>
-            <li><a class="inner-link" href="#" routerLink="about" title="About">{{'About' | translate }}</a></li>
-            <li><a class="inner-link" href="#" routerLink="" fragment="maps" title="Example">{{'Partners' | translate }}</a></li>
-            <li><a class="inner-link" href="#" routerLink="" fragment="service" title="Service">{{'Service' | translate }}</a></li>
-            <li><a class="inner-link" href="#" routerLink="" fragment="contact" title="Contact">{{'Contact' | translate }}</a></li>
-            <li><button class="btn btn-link" title="Language" (click)="switchLanguage()">{{'Translate' | translate}}</button></li>
+            <li><a class="inner-link" href="#" routerLink="" fragment="" title="Home">{{ 'Home' | translate }}</a></li>
+            <li><a class="inner-link" href="#" [routerLink]="[{ outlets: { index: 'about' } }]" title="About">{{ 'About' | translate }}</a></li>
+            <li><a class="inner-link" href="#" routerLink="" fragment="maps" title="Example">{{ 'Partners' | translate }}</a></li>
+            <li><a class="inner-link" href="#" routerLink="" fragment="service" title="Service">{{ 'Service' | translate }}</a></li>
+            <li><a class="inner-link" href="#" routerLink="" fragment="contact" title="Contact">{{ 'Contact' | translate }}</a></li>
+            <li><button class="btn btn-link" title="Language" (click)="switchLanguage()">{{ 'Translate' | translate }}</button></li>
           </ul>
         </nav>
       </div>

@@ -1,0 +1,198 @@
+.report-layout{
+  width: 100%;
+  height: 100vh;
+  background: #FFFFFF;
+  margin: auto;
+}
+
+@media (min-width: 500px){
+  .report-layout{
+    width: 450px;
+    margin: 0 auto;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.18);
+    overflow: hidden;
+  }
+}
+
+.clearMarkets{
+  position: relative;
+  height: 100%;
+  overflow: auto;
+  width: 100%;
+  background: #F5F5F5;
+  padding: 0 10px;
+}
+
+@media (min-width: 500px){
+  .clearMarkets{
+    height: 100%;
+    overflow: auto;
+    width: 450px;
+    margin: 0 auto;
+    position: relative;
+    background: #F5F5F5;
+    padding: 0 10px;
+  }
+}
+
+.top-half{
+  background: #478ddc;
+  height: 50%;
+  width: 100%;
+}
+
+.bot-half{
+  margin: auto;
+  width: 95%;
+  position: relative;
+  background: #FFFFFF;
+  border-radius: 4px;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.18);
+  margin-top: 20px;
+}
+
+.title-part{
+  padding: 12px 0;
+  vertical-align: center;
+}
+
+.mobile-logo{
+  height: 50px;
+  overflow: hidden;
+  padding-left: 20px;
+}
+
+.switch {
+  margin-top: 0;
+  margin-right: 15px;
+  background: #FFFFFF;
+  color: #478ddc;
+}
+
+.about-plat{
+  width: 100%;
+}
+
+.plat-title{
+  overflow: hidden;
+  margin-left: 28px;
+  color: #ffffff;
+  font-size: 1.10rem;
+  padding-bottom: 5px;
+  border-bottom: 0.5px #ffffff solid;
+}
+
+.plat-qa{
+  color: #FFFFFF;
+  float: right;
+  width: auto;
+  margin-right: 15px;
+}
+
+.stats-detail{
+  width: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.detail-block{
+  width: 30%;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.cus-detail{
+  font-size: 1.1rem;
+}
+
+.first-line-left{
+  padding-top: 20px;
+  width: 30%;
+}
+
+.welcome-text{
+  margin-left: 18px;
+  font-size: 20px;
+}
+
+.text-black{
+  color: black;
+}
+
+.text-small{
+  font-size: 12px !important;
+}
+
+.padding-sm{
+  padding-top: 5px;
+}
+
+.first-line-right{
+  width: 30%;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.bg-grey {
+  background: #e6e5e5;
+}
+
+.user-box{
+  height: 100%;
+}
+
+.first-line{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.bot-line{
+  border-bottom: 0.5px #908f8f solid;
+}
+
+.left-line{
+  border-left: 2px #908f8f solid;
+}
+
+.second-block{
+  margin: 10px;
+  width: 100%;
+  height: 320px;
+  display: flex;
+}
+
+.update-desc{
+  width: 40%;
+  height: 100%;
+  display: block;
+}
+
+.update-describe{
+  font-size: 7px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.asset-title{
+  margin-top: 10px;
+}
+
+.asset-detail{
+  margin-top: 5px;
+}
+
+.text-blue{
+  color: #478ddc;
+  font-size: 20px;
+}
+
+
+
+

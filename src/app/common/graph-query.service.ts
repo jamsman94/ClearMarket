@@ -7,7 +7,7 @@ import { GraphJson } from './graph-json';
 })
 export class GraphQueryService {
   // Address to query the graph
-  accountUrl = 'https://cm-api.tophold.com/account/page';
+  accountUrl = 'http://api.clearmarkets.org/account/page';
   constructor(private http: HttpClient) { }
 
   queryJSON() {

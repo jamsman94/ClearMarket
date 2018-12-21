@@ -73,5 +73,16 @@
   "blockchain-3-2": "Only Partial Counterparty Information Shared",
   "blockchain-3-3": "Near Real-Time Processing",
   "blockchain-3-4": "Eliminate Disputes",
-  "blockchain-paragraph": "A Blockchain is a series of databases linked and secured using cryptography. It features an immutable distributed ledger replicated through a peer to peer decentralized network. While commonly cited and discussed, it currenetly has limited application beyond nefarious fund raising and token speculation."
+  "blockchain-paragraph": "A Blockchain is a series of databases linked and secured using cryptography. It features an immutable distributed ledger replicated through a peer to peer decentralized network. While commonly cited and discussed, it currenetly has limited application beyond nefarious fund raising and token speculation.",
+  "switch": "中文",
+  "plat-title": "Tophold Platform Info",
+  "about-plat": "About Clear Markets",
+  "rating": "Rating",
+  "coverage": "Coverage",
+  "execution": "Execution",
+  "welcome": "welcome, ",
+  "last-update": "last update: ",
+  "update-frequency": "Data is Updated every 5 minutes",
+  "assets": "Assets ($)",
+  "cp-risk": "Counter party risk"
 }

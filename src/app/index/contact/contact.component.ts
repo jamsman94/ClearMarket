@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {FormBuilder, FormGroup, Validators} from '@angular/forms';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-contact',
@@ -7,10 +8,11 @@ import {FormBuilder, FormGroup, Validators} from '@angular/forms';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent implements OnInit {
+  contactAddress = '192.168.1.44:8080/contact/send';
   messageForm: FormGroup;
   submitted = false;
   success = false;
-  constructor(private formBuilder: FormBuilder) { }
+  constructor(private formBuilder: FormBuilder, private http: HttpClient) { }
 
   ngOnInit() {
     this.messageForm = this.formBuilder.group({

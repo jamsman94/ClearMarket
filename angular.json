@@ -23,14 +23,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "node_modules/wowjs/css/libs/animate.css"
+              "src/styles.css"
             ],
-            "scripts": [
-              "node_modules/jquery/dist/jquery.min.js",
-              "node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "node_modules/wowjs/dist/wow.js"
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -86,10 +81,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [
-              "node_modules/jquery/dist/jquery.min.js",
-              "node_modules/bootstrap/dist/js/bootstrap.min.js"
-            ],
+            "scripts": [],
             "assets": [
               "src/favicon.ico",
               "src/assets"

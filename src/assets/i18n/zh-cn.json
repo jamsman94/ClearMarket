@@ -73,5 +73,16 @@
   "blockchain-3-2": "仅共享部分交易对手信息",
   "blockchain-3-3": "实时处理",
   "blockchain-3-4": "消除争议",
-  "blockchain-paragraph": "区块链是运用加密技术保护和链接的一系列数据库。 它具有通过对等分散网络复制的不可变的分布式账本。 虽然经常被引用和讨论，但它目前在非法集资和恶意炒币上的应用有限。"
+  "blockchain-paragraph": "区块链是运用加密技术保护和链接的一系列数据库。 它具有通过对等分散网络复制的不可变的分布式账本。 虽然经常被引用和讨论，但它目前在非法集资和恶意炒币上的应用有限。",
+  "switch": "EN",
+  "plat-title": "天厚平台信息",
+  "about-plat": "了解Clear Markets",
+  "rating": "信用评级",
+  "coverage": "现金保障比例",
+  "execution": "最优价格比例",
+  "welcome": "欢迎您, ",
+  "last-update": "上次更新: ",
+  "update-frequency": "数据每五分钟更新一次",
+  "assets": "可取资金($)",
+  "cp-risk": "交易对手风险"
 }

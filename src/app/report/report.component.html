@@ -1,0 +1,56 @@
+<div class="report-layout" style="padding: 0; font-size: 12px;">
+  <div class="clearMarkets" style="padding: 0;">
+    <div class="top-half">
+      <div class="title-part">
+        <img class="mobile-logo" src="../../assets/images/logo-dark.png">
+        <button class="btn btn-primary float-right switch" (click)="this.switchLanguage()"> {{ 'switch' | translate }}</button>
+      </div>
+      <div class="about-plat">
+        <span class="plat-title">{{ 'plat-title' | translate }}</span>
+        <span class="plat-qa">{{ 'about-plat' | translate }}</span>
+      </div>
+      <div class="stats-detail">
+        <div class="detail-block">
+          <div class="cus-detail">--</div>
+          <div> {{ 'rating' | translate }}</div>
+        </div>
+        <div class="detail-block">
+          <div class="cus-detail">--</div>
+          <div>{{ 'coverage' | translate }}</div>
+        </div>
+        <div class="detail-block">
+          <div class="cus-detail">--</div>
+          <div> {{ 'execution' | translate }}</div>
+        </div>
+      </div>
+      <div class="bot-half">
+        <div class="first-line">
+          <div class="first-line-left">
+            <div class="welcome-text text-black bot-line"> {{ 'welcome' | translate }}</div>
+            <div class="welcome-text text-small padding-sm"> {{ 'last-update' | translate }}</div>
+          </div>
+          <div class="first-line-right">
+            <div class="bg-grey user-box text-center">
+              <div class="id-text">--</div>
+              <div class="id-desc text-small">Clear Markets ID</div>
+            </div>
+          </div>
+        </div>
+        <div class="second-block">
+          <div class="update-desc">
+            <div class="update-describe left-line"> {{ 'update-frequency' | translate}}</div>
+            <div class="asset-block">
+              <div class="asset-title"> {{ 'assets' | translate }}</div>
+              <div class="asset-detail text-blue">--</div>
+            </div>
+            <div class="cp-block">
+              <div class="asset-title"> {{ 'cp-risk' | translate }}</div>
+              <div class="asset-detail text-blue">--</div>
+            </div>
+          </div>
+          <div class="network" id="network"></div>
+        </div>
+      </div>
+        </div>
+  </div>
+</div>

@@ -20,7 +20,7 @@ export class GraphExampleComponent implements OnInit {
   ngOnInit() {
     this.graphquery.queryJSON().subscribe((data: GraphJson) => {
       this.retJson = this.graphquery.JsonConvert(data);
-      console.log(this.retJson);
+      // console.log(this.retJson);
       this.loadGraph(this.retJson);
     });
   }

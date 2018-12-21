@@ -1,24 +1,22 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
-import { LayoutComponent } from './layout/layout.component';
+
+import { ReportRoutingModule } from './report-routing.module';
+import { ReportComponent } from './report.component';
 // Translate module
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
-// Routing Module
-import { AppRoutingModule } from '../app-routing.module';
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, '../../assets/i18n/', '.json');
 }
 @NgModule({
-  declarations: [HeaderComponent, FooterComponent, LayoutComponent],
+  declarations: [ReportComponent],
   imports: [
     CommonModule,
+    ReportRoutingModule,
     HttpClientModule,
-    AppRoutingModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
@@ -26,9 +24,6 @@ export function createTranslateLoader(http: HttpClient) {
         deps: [HttpClient]
       }
     })
-  ],
-  exports: [
-    LayoutComponent
   ]
 })
-export class UiModule { }
+export class ReportModule { }
